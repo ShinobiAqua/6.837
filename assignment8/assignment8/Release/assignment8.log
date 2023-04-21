@@ -1,0 +1,8 @@
+﻿  glCanvas.cpp
+D:\myproject\assignment8\assignment8\spline.h(42,3): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码
+  3 of 286 functions ( 1.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  assignment8.vcxproj -> D:\myproject\assignment8\Release\assignment8.exe

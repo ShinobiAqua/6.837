@@ -1,0 +1,9 @@
+﻿  curve.cpp
+D:\myproject\assignment8\assignment8\spline.h(41,3): warning C4018: “<”: 有符号/无符号不匹配
+  glCanvas.cpp
+D:\myproject\assignment8\assignment8\curve.cpp(64,20): warning C4018: “<”: 有符号/无符号不匹配
+  spline_parser.cpp
+D:\myproject\assignment8\assignment8\spline.h(41,3): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码...
+D:\myproject\assignment8\assignment8\spline.h(41,3): warning C4018: “<”: 有符号/无符号不匹配
+  assignment8.vcxproj -> D:\myproject\assignment8\Debug\assignment8.exe
