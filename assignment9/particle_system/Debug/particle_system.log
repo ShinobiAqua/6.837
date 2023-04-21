@@ -1,0 +1,93 @@
+﻿  forceField.cpp
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(31,1): error C2679: 二进制“/”: 没有找到接受“float”类型的右操作数的运算符(或没有可接受的转换)
+C:\Users\86151\source\repos\particle_system\particle_system\vectors.h(336,8): message : 可能是“Vec3f Vec3f::operator /(float)”
+C:\Users\86151\source\repos\particle_system\particle_system\vectors.h(360,15): message : 或    “Vec3f operator /(const Vec3f &,const Vec3f &)”[使用参数相关的查找找到]
+  generator.cpp
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(31,1): message : 尝试匹配参数列表“(const Vec3f, float)”时
+C:\Users\86151\source\repos\particle_system\particle_system\generator.h(77,1): error C2662: “float Generator::getDesiredNumParticles(void)”: 不能将“this”指针从“const HoseGenerator”转换为“Generator &”
+C:\Users\86151\source\repos\particle_system\particle_system\generator.h(77,15): message : 转换丢失限定符
+C:\Users\86151\source\repos\particle_system\particle_system\generator.h(51,8): message : 参见“Generator::getDesiredNumParticles”的声明
+C:\Users\86151\source\repos\particle_system\particle_system\generator.h(77,1): error C2662: “float Generator::getLifespan(void)”: 不能将“this”指针从“const HoseGenerator”转换为“Generator &”
+C:\Users\86151\source\repos\particle_system\particle_system\generator.h(77,42): message : 转换丢失限定符
+  glCanvas.cpp
+  integrator.cpp
+C:\Users\86151\source\repos\particle_system\particle_system\generator.h(46,8): message : 参见“Generator::getLifespan”的声明
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(31,1): error C2679: 二进制“/”: 没有找到接受“float”类型的右操作数的运算符(或没有可接受的转换)
+C:\Users\86151\source\repos\particle_system\particle_system\vectors.h(336,8): message : 可能是“Vec3f Vec3f::operator /(float)”
+C:\Users\86151\source\repos\particle_system\particle_system\vectors.h(360,15): message : 或    “Vec3f operator /(const Vec3f &,const Vec3f &)”[使用参数相关的查找找到]
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(31,1): message : 尝试匹配参数列表“(const Vec3f, float)”时
+  main.cpp
+C:\Users\86151\source\repos\particle_system\particle_system\integrator.h(45,78): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86151\source\repos\particle_system\particle_system\main.cpp(13,20): warning C4305: “初始化”: 从“double”到“float”截断
+C:\Users\86151\source\repos\particle_system\particle_system\main.cpp(14,15): warning C4305: “初始化”: 从“double”到“float”截断
+C:\Users\86151\source\repos\particle_system\particle_system\main.cpp(29,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86151\source\repos\particle_system\particle_system\main.cpp(33,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  matrix.cpp
+C:\Users\86151\source\repos\particle_system\particle_system\main.cpp(44,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86151\source\repos\particle_system\particle_system\matrix.cpp(351,1): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message : 参见“fscanf”的声明
+C:\Users\86151\source\repos\particle_system\particle_system\matrix.cpp(364,1): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  parser.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message : 参见“fscanf”的声明
+C:\Users\86151\source\repos\particle_system\particle_system\generator.h(77,1): error C2662: “float Generator::getDesiredNumParticles(void)”: 不能将“this”指针从“const HoseGenerator”转换为“Generator &”
+C:\Users\86151\source\repos\particle_system\particle_system\generator.h(77,15): message : 转换丢失限定符
+C:\Users\86151\source\repos\particle_system\particle_system\generator.h(51,8): message : 参见“Generator::getDesiredNumParticles”的声明
+C:\Users\86151\source\repos\particle_system\particle_system\generator.h(77,1): error C2662: “float Generator::getLifespan(void)”: 不能将“this”指针从“const HoseGenerator”转换为“Generator &”
+C:\Users\86151\source\repos\particle_system\particle_system\generator.h(77,42): message : 转换丢失限定符
+C:\Users\86151\source\repos\particle_system\particle_system\generator.h(46,8): message : 参见“Generator::getLifespan”的声明
+C:\Users\86151\source\repos\particle_system\particle_system\generator.h(97,11): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86151\source\repos\particle_system\particle_system\generator.h(99,11): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(31,1): error C2679: 二进制“/”: 没有找到接受“float”类型的右操作数的运算符(或没有可接受的转换)
+C:\Users\86151\source\repos\particle_system\particle_system\vectors.h(336,8): message : 可能是“Vec3f Vec3f::operator /(float)”
+C:\Users\86151\source\repos\particle_system\particle_system\vectors.h(360,15): message : 或    “Vec3f operator /(const Vec3f &,const Vec3f &)”[使用参数相关的查找找到]
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(31,1): message : 尝试匹配参数列表“(const Vec3f, float)”时
+C:\Users\86151\source\repos\particle_system\particle_system\integrator.h(45,78): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(16,25): error C2011: “GravityForceField”:“class”类型重定义
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(16): message : 参见“GravityForceField”的声明
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(26,25): error C2011: “ConstantForceField”:“class”类型重定义
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(26): message : 参见“ConstantForceField”的声明
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(36,23): error C2011: “RadialForceField”:“class”类型重定义
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(36): message : 参见“RadialForceField”的声明
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(51,26): error C2011: “VerticalForceField”:“class”类型重定义
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(51): message : 参见“VerticalForceField”的声明
+C:\Users\86151\source\repos\particle_system\particle_system\parser.cpp(13,1): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 参见“fopen”的声明
+C:\Users\86151\source\repos\particle_system\particle_system\parser.cpp(228,42): error C2027: 使用了未定义类型“GravityForceField”
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(16): message : 参见“GravityForceField”的声明
+C:\Users\86151\source\repos\particle_system\particle_system\parser.cpp(231,41): error C2027: 使用了未定义类型“ConstantForceField”
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(26): message : 参见“ConstantForceField”的声明
+C:\Users\86151\source\repos\particle_system\particle_system\parser.cpp(234,43): error C2027: 使用了未定义类型“RadialForceField”
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(36): message : 参见“RadialForceField”的声明
+C:\Users\86151\source\repos\particle_system\particle_system\parser.cpp(237,45): error C2027: 使用了未定义类型“VerticalForceField”
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(51): message : 参见“VerticalForceField”的声明
+C:\Users\86151\source\repos\particle_system\particle_system\parser.cpp(256,1): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message : 参见“fscanf”的声明
+C:\Users\86151\source\repos\particle_system\particle_system\parser.cpp(267,1): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message : 参见“fscanf”的声明
+C:\Users\86151\source\repos\particle_system\particle_system\parser.cpp(278,1): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message : 参见“fscanf”的声明
+C:\Users\86151\source\repos\particle_system\particle_system\parser.cpp(289,1): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message : 参见“fscanf”的声明
+C:\Users\86151\source\repos\particle_system\particle_system\parser.cpp(300,1): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  particle.cpp
+  system.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message : 参见“fscanf”的声明
+C:\Users\86151\source\repos\particle_system\particle_system\generator.h(77,1): error C2662: “float Generator::getDesiredNumParticles(void)”: 不能将“this”指针从“const HoseGenerator”转换为“Generator &”
+C:\Users\86151\source\repos\particle_system\particle_system\generator.h(77,15): message : 转换丢失限定符
+C:\Users\86151\source\repos\particle_system\particle_system\generator.h(51,8): message : 参见“Generator::getDesiredNumParticles”的声明
+C:\Users\86151\source\repos\particle_system\particle_system\generator.h(77,1): error C2662: “float Generator::getLifespan(void)”: 不能将“this”指针从“const HoseGenerator”转换为“Generator &”
+C:\Users\86151\source\repos\particle_system\particle_system\generator.h(77,42): message : 转换丢失限定符
+C:\Users\86151\source\repos\particle_system\particle_system\generator.h(46,8): message : 参见“Generator::getLifespan”的声明
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(31,1): error C2679: 二进制“/”: 没有找到接受“float”类型的右操作数的运算符(或没有可接受的转换)
+C:\Users\86151\source\repos\particle_system\particle_system\vectors.h(336,8): message : 可能是“Vec3f Vec3f::operator /(float)”
+C:\Users\86151\source\repos\particle_system\particle_system\vectors.h(360,15): message : 或    “Vec3f operator /(const Vec3f &,const Vec3f &)”[使用参数相关的查找找到]
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(31,1): message : 尝试匹配参数列表“(const Vec3f, float)”时
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(16,25): error C2011: “GravityForceField”:“class”类型重定义
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(16): message : 参见“GravityForceField”的声明
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(26,25): error C2011: “ConstantForceField”:“class”类型重定义
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(26): message : 参见“ConstantForceField”的声明
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(36,23): error C2011: “RadialForceField”:“class”类型重定义
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(36): message : 参见“RadialForceField”的声明
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(51,26): error C2011: “VerticalForceField”:“class”类型重定义
+  正在生成代码...
+C:\Users\86151\source\repos\particle_system\particle_system\forceField.h(51): message : 参见“VerticalForceField”的声明

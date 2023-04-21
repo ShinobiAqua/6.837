@@ -1,0 +1,13 @@
+﻿  generator.cpp
+  parser.cpp
+C:\Users\86151\source\repos\particle_system\particle_system\generator.h(77,40): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+C:\Users\86151\source\repos\particle_system\particle_system\generator.h(100,11): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\86151\source\repos\particle_system\particle_system\generator.h(102,11): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+  system.cpp
+C:\Users\86151\source\repos\particle_system\particle_system\integrator.h(47,78): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码
+  2 of 166 functions ( 1.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  particle_system.vcxproj -> C:\Users\86151\source\repos\particle_system\Release\particle_system.exe
